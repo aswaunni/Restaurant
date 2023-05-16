@@ -1,0 +1,34 @@
+function loadHomePage()
+{
+    let h1 = document.createElement('h1');
+    h1.textContent = 'Aswa\'s Breakfast Club';
+
+    let about = document.createElement('div');
+    let about_h = document.createElement('h2');
+    about_h.textContent = 'About Aswa\'s Breakfast Club';
+    let about_d = document.createElement('h3');
+    about_d.classList.add('about_d');
+    about_d.textContent = 'For the first time in Calicut, White House introduce a new dining experience with uncompromised taste and quality, destined to be the envy of the casual dining business. Its the right place to team up your food with the right ambience. We are here to flame up your taste buds with our unique open kitchen adding to the excitement.We\'re fully committed in preparing and serving food of uncompromising freshness and quality. We\'re grateful that our restaurant is taken care by passionate employees who make it their business to delight each and every guest with an excellent munching experience.With our excellent service and hospitality, we ensure to make our guest leave with a smile.';
+    about.appendChild(about_h);
+    about.appendChild(about_d);
+
+    let timing = document.createElement('div');
+    timing.classList.add('timing');
+    let timing_h = document.createElement('h2')
+    timing_h.textContent = 'Timing';
+    let timing_d = document.createElement('h3');
+    timing_d.classList.add('about_d');
+    timing_d.innerHTML = 'Sunday: 8am - 8pm<br>Monday: 6am - 6pm<br>Tuesday: 6am - 6pm<br>Wednesday: 6am - 6pm<br>Thursday: 6am - 10pm<br>Friday: 6am - 10pm<br>Saturday: 8am - 10pm';
+    timing.appendChild(timing_h);
+    timing.appendChild(timing_d);
+
+    let page = document.querySelector('.page');
+    page.innerHTML = '';
+
+    page.appendChild(h1);
+    page.appendChild(about);
+    page.appendChild(timing);
+
+}
+
+export default loadHomePage;
