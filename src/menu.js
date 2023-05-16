@@ -53,7 +53,7 @@ function loadMenuPage()
 
     let snack1 = document.createElement('div');
     let snack1_n = document.createElement('h3');
-    snack1_n.textContent = 'Orange Juice';
+    snack1_n.textContent = 'Samosa';
     let img4 = new Image();
     img4.src = snack1_i;
     snack1.appendChild(snack1_n);
@@ -61,7 +61,7 @@ function loadMenuPage()
 
     let snack2 = document.createElement('div');
     let snack2_n = document.createElement('h3');
-    snack2_n.textContent = 'Water';
+    snack2_n.textContent = 'Pani Puri';
     let img5 = new Image();
     img5.src = snack2_i;
     snack2.appendChild(snack2_n);
@@ -69,7 +69,7 @@ function loadMenuPage()
 
     let snack3 = document.createElement('div');
     let snack3_n = document.createElement('h3');
-    snack3_n.textContent = 'Coffee';
+    snack3_n.textContent = 'Vada';
     let img6 = new Image();
     img6.src = snack3_i;
     snack3.appendChild(snack3_n);
